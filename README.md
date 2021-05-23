@@ -1,4 +1,4 @@
-# Thesis
+# Thesis in English
 Program code for the implementation of the project for the thesis on the graduation topic: "Development of salary systems"
 
 Description of the technologies used to create the site
@@ -46,7 +46,7 @@ The "Date" fields have an annotation that specifies the format in which the date
   This is necessary so that the web layer and the platform as a whole can see this entity (add it to the meta information). Thus, this entity can be displayed in the table in the future without unnecessary problems. 
   
   
-# На русском:
+# Краткое описание на русском:
   
   Описание технологий, используемых при создании сайта
 
