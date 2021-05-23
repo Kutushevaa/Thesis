@@ -18,6 +18,7 @@ From the name, it is clear that global stores everything that is available in th
 Next, we have all the entities registered in global. Each entity has its own fields, for example, the working field entity has the following fields – "name", "position", "salary", etc. Since our entities are stored in a database, we write code and tell them in which table they are stored, and in the case of fields, in which column the field values are stored.
 
 Accordingly, the annotation above the class:
+
   – @Table-indicates in which table the entity is stored, the annotation above the field;
   – @Column – in which column the field is stored;
   – there are also @NamePattern annotations above the entity – what is written in the annotation will light up in the user interface when, for example, the entity is displayed in a table;
