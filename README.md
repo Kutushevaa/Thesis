@@ -1,5 +1,5 @@
 # Thesis
-Program code for the implementation of the project for the dissertation on the graduation thesis: "Development of salary systems"
+Program code for the implementation of the project for the thesis on the graduation topic: "Development of salary systems"
 
 Description of the technologies used to create the site
 
