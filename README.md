@@ -20,13 +20,19 @@ Next, we have all the entities registered in global. Each entity has its own fie
 Accordingly, the annotation above the class:
 
   – @Table-indicates in which table the entity is stored, the annotation above the field;
+  
   – @Column – in which column the field is stored;
+  
   – there are also @NamePattern annotations above the entity – what is written in the annotation will light up in the user interface when, for example, the entity is displayed in a table;
+  
   – @Entity - the name of the entity, it is necessary for the platform itself, the registration of the entity in the meta information, therefore, and the receipt of data in the screens from the database occurs through the name of the entity.
   
 Next, some notation:
+
   – In fields @NotNull-means that the field cannot be empty;
+  
   – @ManyToOne-joining another entity with a many-to-one relationship;
+  
   – @JoinColumn, respectively, indicates in which column the key to the joined entity is stored.
 
 The "Date" fields have an annotation that specifies the format in which the date is stored. Full date and time, date only, or time only.
