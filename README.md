@@ -19,29 +19,29 @@ Next, we have all the entities registered in global. Each entity has its own fie
 
 Accordingly, the annotation above the class:
 
-  – @Table-indicates in which table the entity is stored, the annotation above the field;
+   - @Table-indicates in which table the entity is stored, the annotation above the field;
   
-  – @Column – in which column the field is stored;
+   - @Column – in which column the field is stored;
   
-  – there are also @NamePattern annotations above the entity – what is written in the annotation will light up in the user interface when, for example, the entity is displayed in a table;
+   - there are also @NamePattern annotations above the entity – what is written in the annotation will light up in the user interface when, for example, the entity is displayed in a table;
   
-  – @Entity - the name of the entity, it is necessary for the platform itself, the registration of the entity in the meta information, therefore, and the receipt of data in the screens from the database occurs through the name of the entity.
+   - @Entity - the name of the entity, it is necessary for the platform itself, the registration of the entity in the meta information, therefore, and the receipt of data in the screens from the database occurs through the name of the entity.
   
 Next, some notation:
 
-  – In fields @NotNull-means that the field cannot be empty;
+   - In fields @NotNull-means that the field cannot be empty;
   
-  – @ManyToOne-joining another entity with a many-to-one relationship;
+   - @ManyToOne-joining another entity with a many-to-one relationship;
   
-  – @JoinColumn, respectively, indicates in which column the key to the joined entity is stored.
+   - @JoinColumn, respectively, indicates in which column the key to the joined entity is stored.
 
 The "Date" fields have an annotation that specifies the format in which the date is stored. Full date and time, date only, or time only.
 
-  – @NumberFormat for fields of the BigDecimal type (it can work with integers or real numbers of any precision (bit depth) and tells us in what format the number will be stored.
+   - @NumberFormat for fields of the BigDecimal type (it can work with integers or real numbers of any precision (bit depth) and tells us in what format the number will be stored.
   
-  – We also have @MetaClass, for example, BaseWorkPrice, it is not stored in the database. 
+   - We also have @MetaClass, for example, BaseWorkPrice, it is not stored in the database. 
   
-  – And accordingly, the fields of such an entity are marked with @MetaProperty. 
+   - And accordingly, the fields of such an entity are marked with @MetaProperty. 
   
   This is necessary so that the web layer and the platform as a whole can see this entity (add it to the meta information). Thus, this entity can be displayed in the table in the future without unnecessary problems. 
   
