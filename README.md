@@ -36,5 +36,11 @@ Next, some notation:
   – @JoinColumn, respectively, indicates in which column the key to the joined entity is stored.
 
 The "Date" fields have an annotation that specifies the format in which the date is stored. Full date and time, date only, or time only.
-@NumberFormat for fields of the BigDecimal type (it can work with integers or real numbers of any precision (bit depth) and tells us in what format the number will be stored.
-We also have @MetaClass, for example, BaseWorkPrice, it is not stored in the database. And accordingly, the fields of such an entity are marked with @MetaProperty. This is necessary so that the web layer and the platform as a whole can see this entity (add it to the meta information). Thus, this entity can be displayed in the table in the future without unnecessary problems. 
+
+  – @NumberFormat for fields of the BigDecimal type (it can work with integers or real numbers of any precision (bit depth) and tells us in what format the number will be stored.
+  
+  – We also have @MetaClass, for example, BaseWorkPrice, it is not stored in the database. 
+  
+  – And accordingly, the fields of such an entity are marked with @MetaProperty. 
+  
+  This is necessary so that the web layer and the platform as a whole can see this entity (add it to the meta information). Thus, this entity can be displayed in the table in the future without unnecessary problems. 
